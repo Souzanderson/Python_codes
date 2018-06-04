@@ -1,6 +1,7 @@
 """
-Programa em python para cadastro de funcionário
-versão: 2.0
+Titulo: Programa em python para cadastro de funcionário
+Descricao: programa com modulos para criacao e edicao de banco de dados e cadastro de funcionarios
+Versão: 1.0
 """
 from gerenciador import *
 from cadastro import *
