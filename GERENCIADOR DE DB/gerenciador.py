@@ -71,13 +71,3 @@ def cria_banco(nome):
 
 
     conn.close()
-
-#define a fncao principal
-##def main():
-##    print('Um novo banco de dados sera criado, qual sera seu nome?')
-##    db=input(">>>>")
-##    cria_banco(db)
-##    
-###executa o programa
-##main()
-##        
