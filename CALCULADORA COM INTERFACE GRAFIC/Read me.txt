@@ -1,0 +1,6 @@
+App: CALC.PY
+
+Descrição:
+>>> Esse aplicativo tem como objetivo treinar a construção de interfaces gráficas,
+utilizando a biblioteca tkinter. Consiste em uma calculadora simples, sem tratamento de erros,
+que realiza operações básicas. Algumas operações ainda estão em desenvolvimento.
