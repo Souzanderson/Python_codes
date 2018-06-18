@@ -14,8 +14,16 @@ def cria_banco(nome):
         (4)Ver Esquema de Tabela
         (0)Deletar Tabela
         (9)SAIR
+        (7)CRIAR BANCO
         ________________""")
         op=int(input("Escolha: "))
+
+        #cria banco
+        if op==7:
+            nome=input("\nNome do banco: ")
+            conn.close
+            conn = sqlite3.connect(nome+'.db')
+            cursor = conn.cursor()
 
         #cria tabela no banco de dados
         if op==1:
